@@ -13,4 +13,4 @@ Take important notes with ease.
 - JAVASCRIPT
 
 # Demo
-	[https://noty-fy.netlify.app/](https://noty-fy.netlify.app/)
+[https://noty-fy.netlify.app/](https://noty-fy.netlify.app/)
