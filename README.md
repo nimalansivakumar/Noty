@@ -11,3 +11,6 @@ Take important notes with ease.
 * BOOTSTRAP
  
 - JAVASCRIPT
+
+# Demo
+	[https://noty-fy.netlify.app/](https://noty-fy.netlify.app/)
