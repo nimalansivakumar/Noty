@@ -1,42 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link href="style.css" rel="stylesheet">
-    <link href="images/implementer.png" rel="icon">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="style.css" rel="stylesheet" />
+    <link href="images/implementer.png" rel="icon" />
     <title>Noty</title>
-</head>
-<body>
-    <header>
-        <h1>Noty</h1>
-        <img class="nav-icon" src="images/implementer.png">
-    </header>
+  </head>
+  <body>
+    <nav>
+      <h1>Noty</h1>
+    </nav>
     <div class="input-section">
-        <textarea class="text-box" id="text-input" cols="10" rows="5" placeholder="Type your note"></textarea>
+      <textarea
+        class="text-box"
+        id="text-input"
+        cols="10"
+        rows="5"
+        placeholder="Type your note"
+      ></textarea>
 
-        <div class="buttons-div">
-            <input type="color" id="color" class="color-box buttons">
-            <button type="button" id="addButton" class="btn btn-outline-success">Add Note</button>
-        </div>
-        
+      <div class="buttons-div">
+        <input type="color" id="color" class="color-box buttons" />
+        <button type="button" id="addButton" class="buttons addButton">
+          Add Note
+        </button>
+      </div>
     </div>
-            
+
     <div class="notes-div">
-        <!--<div  id ="note-card" class="note-box">
+      <!--<div  id ="note-card" class="note-box">
             <h2 class="note-text">This is your note</h2>
             <button type="button" class="btn btn-danger deleteButton">Delete</button>
         </div>-->
-        <div id="no-note">
-            <h1 class="caution">You haven't added notes yet.</h1>
-            <img src="images/illustration.png" class="illustration">
-        </div>
-        
+      <div id="no-note">
+        <h1 class="caution">You haven't added notes yet.</h1>
+      </div>
     </div>
-</body>
-<footer>
-    <h2>Made by <a href="https://github.com/nimalansivakumar">Nimalan</a> with ❤️</h2>
-</footer>
-<script src="app.js"></script>
+  </body>
+  <footer>
+    <h2>
+      Made by
+      <a href="https://github.com/nimalansivakumar" target="_blank">Nimalan</a>
+      with ❤️
+    </h2>
+  </footer>
+  <script src="app.js"></script>
 </html>

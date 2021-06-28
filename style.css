@@ -1,113 +1,125 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    color: #2e2e22;
-    background-color: #ffffff;
-    font-family: 'Montserrat', sans-serif;
-    height: 100vh;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-header{
-    display: flex;
-    top: 0;
-    left: 0;
+body {
+  width: 100%;
+  color: #2e2e22;
+  background-color: #ffffff;
+  font-family: "Montserrat", sans-serif;
 }
 
-h1{
-    font-size: 4rem;
-    font-weight: bold;
+nav {
+  width: 100%;
+  height: 8vh;
 }
 
-.nav-icon{
-    width: 80px;
-    height: 80px;
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
 }
 
-
-.input-section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.input-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 30vh;
+  background-color: antiquewhite;
 }
 
-.text-box{
-    margin: 20px;
-    min-width: 300px;
-    height: 150px;
-    font-size: 1.3rem;
-    border: 2px solid #2e2e22;
-    border-radius: 5px;
-
+.text-box {
+  margin: 20px;
+  min-width: 300px;
+  height: 150px;
+  font-size: 1.2rem;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #2e2e22;
+  border-radius: 5px;
 }
 
-.buttons-div{
-    width: 300px;
-    display: flex;
-    padding: 10px;
-    justify-content: space-around;
+.buttons-div {
+  width: 300px;
+  display: flex;
+  padding: 10px;
+  justify-content: space-around;
 }
 
-.buttons{
-    width: 100px;
-    height: 50px;
-    outline: none;
-    border: 2px solid #2e2e22;
-    border-radius: 5px;
+.buttons {
+  width: 100px;
+  height: 30px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
 }
 
-.notes-div{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
+.addButton {
+  background-color: rgb(95, 236, 125);
+  color: #ffffff;
 }
 
-.note-box{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
-    border: 2px solid #2e2e2e;
-    border-radius: 5px;
-    margin: 10px;
-    max-width: 300px;
-    width: 300px;
-    height: 150px;
-    text-align: center;
-    overflow-y: scroll;
-    overflow: hidden;
-    color: white;
+.notes-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-image: url(./images//implementer.png);
+  background-repeat: no-repeat;
+  background-size: 400px 400px;
+  background-position: bottom left;
+  min-height: 62vh;
+  height: auto;
 }
 
-.note-text{
-    font-size: 20px;
-}
-.deleteButton{
-    margin: auto;
-}
-.caution{
-    font-size: 1rem;
-    text-align: center;
-}
-
-.illustration{
-    width: 300px;
-}
-
-footer{
-    width: 100%;
-    position: static;;
-    bottom: 0;
-    left: 0;
-    text-align: center;
-    font-size: 10px;
+.note-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 5px;
+  margin: 10px;
+  max-width: 300px;
+  width: 100%;
+  height: 200px;
+  overflow-y: scroll;
+  overflow: hidden;
+  color: white;
 }
 
-a{
-    text-decoration: none;
+.note-text {
+  margin: 10px;
+  font-size: 1rem;
+}
+.deleteButton {
+  width: auto;
+  height: 4vh;
+  background-color: #e75d5d;
+  border: none;
+}
+
+.caution {
+  font-size: 1rem;
+  margin: 20px;
+  text-align: center;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+a {
+  text-decoration: underline;
+  color: #2e2e2e;
+
 }
